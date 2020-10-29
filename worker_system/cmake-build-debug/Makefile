@@ -142,6 +142,60 @@ worker_system/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\worker_system.dir\build.make CMakeFiles/worker_system.dir/build
 .PHONY : worker_system/fast
 
+boss.obj: boss.cpp.obj
+
+.PHONY : boss.obj
+
+# target to build an object file
+boss.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\worker_system.dir\build.make CMakeFiles/worker_system.dir/boss.cpp.obj
+.PHONY : boss.cpp.obj
+
+boss.i: boss.cpp.i
+
+.PHONY : boss.i
+
+# target to preprocess a source file
+boss.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\worker_system.dir\build.make CMakeFiles/worker_system.dir/boss.cpp.i
+.PHONY : boss.cpp.i
+
+boss.s: boss.cpp.s
+
+.PHONY : boss.s
+
+# target to generate assembly for a file
+boss.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\worker_system.dir\build.make CMakeFiles/worker_system.dir/boss.cpp.s
+.PHONY : boss.cpp.s
+
+employee.obj: employee.cpp.obj
+
+.PHONY : employee.obj
+
+# target to build an object file
+employee.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\worker_system.dir\build.make CMakeFiles/worker_system.dir/employee.cpp.obj
+.PHONY : employee.cpp.obj
+
+employee.i: employee.cpp.i
+
+.PHONY : employee.i
+
+# target to preprocess a source file
+employee.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\worker_system.dir\build.make CMakeFiles/worker_system.dir/employee.cpp.i
+.PHONY : employee.cpp.i
+
+employee.s: employee.cpp.s
+
+.PHONY : employee.s
+
+# target to generate assembly for a file
+employee.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\worker_system.dir\build.make CMakeFiles/worker_system.dir/employee.cpp.s
+.PHONY : employee.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -169,6 +223,60 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\worker_system.dir\build.make CMakeFiles/worker_system.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+manager.obj: manager.cpp.obj
+
+.PHONY : manager.obj
+
+# target to build an object file
+manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\worker_system.dir\build.make CMakeFiles/worker_system.dir/manager.cpp.obj
+.PHONY : manager.cpp.obj
+
+manager.i: manager.cpp.i
+
+.PHONY : manager.i
+
+# target to preprocess a source file
+manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\worker_system.dir\build.make CMakeFiles/worker_system.dir/manager.cpp.i
+.PHONY : manager.cpp.i
+
+manager.s: manager.cpp.s
+
+.PHONY : manager.s
+
+# target to generate assembly for a file
+manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\worker_system.dir\build.make CMakeFiles/worker_system.dir/manager.cpp.s
+.PHONY : manager.cpp.s
+
+workManager.obj: workManager.cpp.obj
+
+.PHONY : workManager.obj
+
+# target to build an object file
+workManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\worker_system.dir\build.make CMakeFiles/worker_system.dir/workManager.cpp.obj
+.PHONY : workManager.cpp.obj
+
+workManager.i: workManager.cpp.i
+
+.PHONY : workManager.i
+
+# target to preprocess a source file
+workManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\worker_system.dir\build.make CMakeFiles/worker_system.dir/workManager.cpp.i
+.PHONY : workManager.cpp.i
+
+workManager.s: workManager.cpp.s
+
+.PHONY : workManager.s
+
+# target to generate assembly for a file
+workManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\worker_system.dir\build.make CMakeFiles/worker_system.dir/workManager.cpp.s
+.PHONY : workManager.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -178,9 +286,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... worker_system
+	@echo ... boss.obj
+	@echo ... boss.i
+	@echo ... boss.s
+	@echo ... employee.obj
+	@echo ... employee.i
+	@echo ... employee.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... manager.obj
+	@echo ... manager.i
+	@echo ... manager.s
+	@echo ... workManager.obj
+	@echo ... workManager.i
+	@echo ... workManager.s
 .PHONY : help
 
 

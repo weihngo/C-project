@@ -80,7 +80,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/lwh/Desktop/github/C-project/worker_system/Person.h">
+			<Option target="worker_system"/>
+		</Unit>
+		<Unit filename="C:/Users/lwh/Desktop/github/C-project/worker_system/boss.cpp">
+			<Option target="worker_system"/>
+		</Unit>
+		<Unit filename="C:/Users/lwh/Desktop/github/C-project/worker_system/boss.h">
+			<Option target="worker_system"/>
+		</Unit>
+		<Unit filename="C:/Users/lwh/Desktop/github/C-project/worker_system/employee.cpp">
+			<Option target="worker_system"/>
+		</Unit>
+		<Unit filename="C:/Users/lwh/Desktop/github/C-project/worker_system/employee.h">
+			<Option target="worker_system"/>
+		</Unit>
 		<Unit filename="C:/Users/lwh/Desktop/github/C-project/worker_system/main.cpp">
+			<Option target="worker_system"/>
+		</Unit>
+		<Unit filename="C:/Users/lwh/Desktop/github/C-project/worker_system/manager.cpp">
+			<Option target="worker_system"/>
+		</Unit>
+		<Unit filename="C:/Users/lwh/Desktop/github/C-project/worker_system/manager.h">
+			<Option target="worker_system"/>
+		</Unit>
+		<Unit filename="C:/Users/lwh/Desktop/github/C-project/worker_system/workManager.cpp">
+			<Option target="worker_system"/>
+		</Unit>
+		<Unit filename="C:/Users/lwh/Desktop/github/C-project/worker_system/workManager.h">
 			<Option target="worker_system"/>
 		</Unit>
 		<Unit filename="C:/Users/lwh/Desktop/github/C-project/worker_system/CMakeLists.txt">
